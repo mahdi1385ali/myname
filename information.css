@@ -77,13 +77,13 @@
     filter: drop-shadow(5px 5px 20px #000000);
 }
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (max-width: 1080px) {
     .text-aline{
         margin-left: 25px;
     }
     .home{
-        width: 30px;
-        height: 30px;
+        width: 45px;
+        height: 23px;
         float: right;
         font-family: hosen-fon;
         margin-left: 300px;
@@ -91,6 +91,9 @@
         color: rgb(255, 166, 0);
         filter: drop-shadow(7px 7px 20px #ffffff);
         font-size: 20px;
+        border-bottom: 1px solid rgb(0, 255, 247);
+        border-top: 1px solid rgb(0, 255, 247)
+
     }
     .Services{
         float: right;
@@ -104,14 +107,14 @@
         float: right;
         font-family: hosen-fon;
         margin-right: 6px;
-        margin-left: 40px;
+        margin-left: 20px;
         font-size: 20px;
         color: wheat;
     }
     .About{
         float: right;
         font-family: hosen-fon;
-        margin-right: 590px;
+        margin-right: 380px;
         margin-left: 10px;
         font-size: 20px;
         color: wheat;
@@ -135,8 +138,8 @@
 } 
 @media only screen and (max-width: 1024px){
     .home{
-        width: 30px;
-        height: 30px;
+        width: 90px;
+        height: 45px;
         float: right;
         font-family: hosen-fon;
         margin-left: 100px;
@@ -144,11 +147,13 @@
         color: white;
         filter: drop-shadow(7px 7px 20px #ffffff);
         font-size: 39px;
+        border-bottom: 1px solid rgb(0, 255, 247);
+        border-top: 1px solid rgb(0, 255, 247)
     }
     .About{
         float: right;
         font-family: hosen-fon;
-        margin-right: 190px;
+        margin-right: 250px;
         margin-left: 10px;
         font-size: 39px;
         color: white;
@@ -225,13 +230,15 @@
     }
     .home{
         margin-top: 30px;
-        width: 30px;
-        height: 30px;
+        width: 43px;
+        height: 23px;
         float: left;
         margin-left: 10px;
         font-family: hosen-fon;
         font-size: 19px;
         filter: drop-shadow(3px 3px 20px yellow);
+        border-bottom: 1px solid rgb(0, 255, 247);
+        border-top: 1px solid rgb(0, 255, 247)
     }
     .About{
         margin-top: 30px;
