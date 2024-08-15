@@ -44,7 +44,7 @@
         }
         
     }
-    @media only screen and (max-width: 798px) {
+    @media only screen and (max-width: 1024px) {
         .red{
             background-size: cover;
             background-image:url(./photos/nerf\ mobile.jpeg) ;
