@@ -1,0 +1,32 @@
+/*بخش منو های صفحه منو*/
+@font-face {
+    font-family:nahid;
+    src:url(./Font/nahid/Nahid.woff) format('woff')
+    }
+    @font-face {
+        font-family: taha;
+        src: url(./Font/taha-font/Tanha.woff) format('woff')
+    }
+    @font-face {
+        font-family: hosen;
+        src: url(./Font/hosen-font/Gandom.woff) format('woff')
+    }
+    @font-face {
+        font-family: hosen-fon;
+        src: url(./Font/hosen/Glowbloomdemo-ZpG7q.ttf) format('woff')
+    }
+    @font-face {
+        font-family: vazir;
+        src: url(./Font/vazir-font/Vazir-Bold.woff) format('woff');
+    }
+
+    @font-face {
+        font-family: pota;
+        src: url(./Font/pota/Royal-BF6543ae6d80cec.otf) format('woff')
+    }
+
+body{
+    font-family: taha;
+    background-color: rgb(73, 73, 73);
+    color: wheat;
+}
