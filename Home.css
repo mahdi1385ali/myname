@@ -48,6 +48,7 @@ body{
 .top-1{
     border-bottom: 1px solid rgba(122, 122, 122, 0.307) ;
     height: 40px;
+    margin-top: 1130px;
 }
 
 .Home{
@@ -123,6 +124,18 @@ body{
     animation: text;
     animation-duration: 2s;
 }
+.text-3{
+    font-family: hosen-fon;
+    float: left;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    color: rgb(142, 140, 140);
+}
+
+.search{
+    width: 370px; height: 400px;
+}
 
 .img-2{
     background-image: url(./image/img-2.png);
@@ -149,4 +162,153 @@ body{
     to{margin-top: 70px;}
 }
 
+@media only screen and (max-width: 431px){
+    .img{
+        width: 330px;height: 300px;
+        margin-left: 37px;
+        margin-top: 30px;
+    }
+    .img-2{
+        width: 270px;height: 260px;
+        margin-top: 84px;
+    }
+    @keyframes img-2{
+        from{margin-top: 100px;}
+        to{margin-top: 84px;}
+    }
+    @keyframes img{
+        from{margin-top: 100px;}
+        to{margin-top: 30px;}
+    }
 
+    .text-1{
+        font-size: 24px;
+        width: 150px;
+    }
+    .text-2{
+        font-size: 24px;
+        width: 160px;
+        margin-left: 40px;
+    }
+    .text-3{
+        float: left;
+        margin-top: 60px;
+        font-size: 24px;
+
+    }
+    .top-1{
+        margin-top: 1000px;
+    }
+}
+@media only screen and (max-width: 415px){
+    .img{
+        width: 330px;height: 300px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .img-2{
+        width: 270px;height: 260px;
+        margin-top: 84px;
+    }
+    @keyframes img-2{
+        from{margin-top: 100px;}
+        to{margin-top: 84px;}
+    }
+    @keyframes img{
+        from{margin-top: 100px;}
+        to{margin-top: 30px;}
+    }
+
+    .text-1{
+        font-size: 24px;
+        width: 150px;
+    }
+    .text-2{
+        font-size: 24px;
+        width: 160px;
+        margin-left: 40px;
+    }
+    .text-3{
+        float: left;
+        margin-top: 50px;
+        font-size: 24px;
+
+    }
+    .top-1{
+        margin-top: 1000px;
+    }
+}
+@media only screen and (max-width: 376px){
+    .img{
+        width: 260px;height: 230px;
+        margin-left: 46px;
+    }
+    .img-2{
+        width: 220px;height: 210px;
+        margin-top: 15px;
+    }
+    @keyframes img-2{
+        from{margin-top: 50px;}
+        to{margin-top: 15px;}
+    }
+
+    .text-1{
+        font-size: 20px;
+        width: 100px;
+    }
+    .text-2{
+        font-size: 20px;
+        width: 140px;
+        margin-left: 40px;
+    }
+    .text-3{
+        float: left;
+        margin-top: 120px;
+        font-size: 24px;
+
+    }
+    .top-1{
+        margin-top: 900px;
+    }
+}
+@media only screen and (max-width: 361px){
+    .img{
+        width: 260px;height: 230px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .img-2{
+        width: 220px;height: 210px;
+        margin-top: 30px;
+    }
+    @keyframes img{
+        from{margin-top: 100px;}
+        to{margin-top: 10px;}
+    }
+    @keyframes img-2{
+        from{margin-top: 50px;}
+        to{margin-top: 30px;}
+    }
+
+    .text-1{
+        font-size: 20px;
+        width: 100px;
+    }
+    .text-2{
+        font-size: 20px;
+        width: 140px;
+        margin-left: 40px;
+    }
+    .text-3{
+        float: left;
+        margin-top: 70px;
+        font-size: 26px;
+
+    }
+    .top-1{
+        margin-top: 900px;
+    }
+    .search{
+        width: 350px; height: 400px;
+    }
+}
